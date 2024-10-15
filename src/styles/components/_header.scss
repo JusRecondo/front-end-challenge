@@ -20,16 +20,6 @@
   }
 }
 
-.header-chips {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  @include media-desktop {
-    gap: 24px;
-  }
-}
-
 .header-actions {
   display: flex;
   flex-direction: column;
