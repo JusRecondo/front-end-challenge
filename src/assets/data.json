@@ -1,0 +1,31 @@
+{
+  "fieldId": 1,
+  "status": "Ok",
+  "totalGrainsInTons": 200,
+  "silobags": {
+    "total": 9,
+    "insured": 5,
+    "status": [      
+      {
+        "label": "Peligro",
+        "value": 40
+      },
+      {
+        "label": "Alerta",
+        "value": 25
+      },
+      {
+        "label": "Ok",
+        "value": 25
+      },
+      {
+        "label": "Sin datos",
+        "value": 10
+      }
+    ]
+  },
+  "location": {
+    "name": "San Antonio de Areco, Buenos Aires",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15687.613982156781!2d-59.47447104831972!3d-34.25072296471991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb9533fc84b0c1%3A0x33d6b6bd3a65b27f!2sSan%20Antonio%20de%20Areco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1729019072541!5m2!1ses-419!2sar"
+  }
+}
