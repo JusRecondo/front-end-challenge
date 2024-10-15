@@ -1,3 +1,21 @@
 .chart-section {
   padding: 16px 0;
+
+  @include media-desktop {
+    padding: 24px 0;
+    width: 40%;
+  }
+
+  .chips-container {
+    margin-bottom: 16px;
+
+    @include media-desktop {
+      margin-bottom: 24px;
+    }
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
