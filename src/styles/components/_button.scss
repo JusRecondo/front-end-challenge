@@ -1,0 +1,21 @@
+.MuiButton-contained.primary-btn {
+  background: $primary-blue;
+  color: $text-color-light;
+  text-transform: none;
+  font-family: inherit;
+  border-radius: $border-radius-m;
+  padding: 10px 20px;
+
+  @include media-desktop {
+    padding: 12px 24px;
+  }
+}
+
+.MuiButton-text.link-btn {
+  background: none;
+  color: $text-color-dark;
+  text-transform: none;
+  font-family: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+}

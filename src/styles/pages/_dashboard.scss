@@ -2,4 +2,9 @@
   max-width: $content-max-width;
   margin: auto;
   min-height: 100vh;
+  padding: 16px;
+
+  @include media-desktop {
+    padding: 24px;
+  }
 }

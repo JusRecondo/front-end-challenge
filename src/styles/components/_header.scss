@@ -1,0 +1,49 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 0;
+
+  @include media-desktop {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+  }
+}
+
+.header-chips {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  @include media-desktop {
+    gap: 24px;
+  }
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @include media-desktop {
+    align-items: flex-end;
+  }
+}
+
+.header-tabs {
+  width: 100%;
+
+  .MuiTab-root.Mui-selected {
+    color: $text-color-dark;
+  }
+}

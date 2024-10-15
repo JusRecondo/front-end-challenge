@@ -13,7 +13,7 @@ body {
   color: $text-color-dark;
 
   @include media-desktop {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
@@ -24,4 +24,11 @@ a {
 
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

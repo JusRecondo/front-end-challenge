@@ -1,0 +1,8 @@
+.MuiChip-root.custom-chip {
+  font-family: inherit;
+
+  &.MuiChip-outlined {
+    border: 1px solid $text-color-dark;
+    color: $text-color-dark;
+  }
+}
