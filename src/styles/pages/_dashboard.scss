@@ -7,4 +7,14 @@
   @include media-desktop {
     padding: 24px;
   }
+
+  .dashboard-main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    @include media-desktop {
+      flex-direction: row;
+    }
+  }
 }

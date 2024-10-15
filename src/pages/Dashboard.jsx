@@ -6,8 +6,10 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <Header />
-      <ChartSection />
-      <MapSection />
+      <main className="dashboard-main">
+        <ChartSection />
+        <MapSection />
+      </main>
     </div>
   )
 }
