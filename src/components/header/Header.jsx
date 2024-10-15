@@ -21,7 +21,7 @@ const Header = () => {
           Campo {fieldData.fieldId}
           <InsertDriveFileIcon fontSize="large" />
         </h1>
-        <div className="header-chips">
+        <div className="chips-container">
           <Chip label={fieldData.status} color="success" />
           <Chip
             label={`Total de granos: ${fieldData.totalGrainsInTons} (tons)`}
