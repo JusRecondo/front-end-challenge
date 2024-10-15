@@ -1,0 +1,18 @@
+// Media queries
+@mixin media-tablet {
+  @media screen and (min-width: $b-tablet) {
+      @content;
+  }
+}
+
+@mixin media-desktop {
+  @media screen and (min-width: $b-desktop) {
+      @content;
+  }
+}
+
+@mixin media-desktop-lg {
+  @media screen and (min-width: $b-desktop-lg) {
+      @content;
+  }
+}

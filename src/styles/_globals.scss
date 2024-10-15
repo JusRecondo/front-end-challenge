@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $main-font;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: $bg-color-light;
+  color: $text-color-dark;
+
+  @include media-desktop {
+      font-size: 18px;
+  }
+}
+
+main {
+  max-width: $content-max-width;
+  margin: auto;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
