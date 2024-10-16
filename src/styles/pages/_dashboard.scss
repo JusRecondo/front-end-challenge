@@ -1,17 +1,22 @@
 .dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: $content-max-width;
   margin: auto;
   min-height: 100vh;
-  padding: 16px;
+  padding: 16px 16px 32px 16px;
 
   @include media-desktop {
-    padding: 24px;
+    padding: 24px 24px 32px 24px;
   }
 
   .dashboard-main {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     flex-direction: column;
+    gap: 16px;
     
     @include media-desktop {
       flex-direction: row;
