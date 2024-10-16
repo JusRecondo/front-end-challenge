@@ -18,8 +18,10 @@ const ChartSection = () => {
           <Chip label={`Asegurados: ${fieldData.silobags.insured}`} color="success" />
       </div>
       <Card customClassname="chart-card">
-        <h2>Estatus silobolsas</h2>
-        <Chart />
+        <>
+          <h2>Estatus silobolsas</h2>
+          <Chart />
+        </>
       </Card>
     </section>
   )

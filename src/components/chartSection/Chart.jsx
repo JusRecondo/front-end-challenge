@@ -21,6 +21,8 @@ const Chart = () => {
     },
   }
 
+  const a11yText = fieldData.silobags.status.map(data => `${data.label}: ${data.value}`)
+
   return (
     <div className="chart-wrapper">
       <Doughnut 
@@ -36,6 +38,8 @@ const Chart = () => {
           ]
         }}
         options={options}
+        role="img"
+        aria-label={`Un gráfico circular mostrando la siguiente distribución: ${a11yText}`}
       />
     </div>
   )
