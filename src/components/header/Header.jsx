@@ -40,6 +40,11 @@ const Header = () => {
             value={activeTab}
             onChange={handleChangeTab}
             aria-label="Dashboard tabs"
+            TabIndicatorProps={{
+              style: {
+                backgroundColor: "#0e194e"
+              }
+            }}
           >
             <Tab
               value="one"
