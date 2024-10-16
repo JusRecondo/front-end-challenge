@@ -3,7 +3,7 @@
   color: $text-color-light;
   text-transform: none;
   font-family: inherit;
-  border-radius: $border-radius-m;
+  border-radius: $border-radius;
   padding: 10px 20px;
 
   @include media-desktop {
