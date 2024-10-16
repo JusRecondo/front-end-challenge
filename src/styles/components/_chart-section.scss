@@ -1,9 +1,22 @@
 .chart-section {
-  padding: 16px 0;
+  margin: 16px 0;
+  width: 100%;
 
   @include media-desktop {
-    padding: 24px 0;
+    margin: 16px 0 0 0;
     width: 40%;
+  }
+
+  .card {
+    @include media-desktop {
+      height: 350px;
+    }
+  }
+
+  .chart-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100%;
   }
 
   .chips-container {
